@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Muller";
+    src: url(./components/fonts/2DF5B4_D_0.woff2) format("woff2"), url(./components/fonts/2DF5B4_D_0.woff) format("woff")
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: lighter;
+    font-family: Muller
+}
+
+picture {
+    font-size: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.text-start {
+    text-align: start;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.center {
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center;
+    text-align: center;
+    flex-direction: column; */
+    margin: 0 auto;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.flex {
+    display: flex;
+}
+
+.text-start {
+    text-align: start;
+}

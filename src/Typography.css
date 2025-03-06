@@ -1,0 +1,105 @@
+.font-bold {
+    font-weight: bold;
+}
+.text-base {
+    font-size: 15px;
+    font-weight: 400;
+    max-height: 110px;
+    overflow-y: auto;
+}
+
+.text-base::-webkit-scrollbar {
+    display: none;
+}
+
+.height-235 {
+    max-height: 235px;
+}
+
+/* .font-bold {
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+.font-bold::-webkit-scrollbar {
+    display: none;
+} */
+
+.text-base-articlesData {
+    font-size: 15px;
+    font-weight: 400;
+    max-height: 180px;
+    overflow-y: auto;
+}
+
+.button-articlesData {
+    margin: 25px 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.size-72 {
+    font-size: 72px;
+    line-height: 74px;
+}
+.size-55 {
+    font-size: 55px;
+}
+.size-50 {
+    font-size: 50px;
+}
+.size-48 {
+    font-size: 48px;
+    line-height: 48px;
+}
+.size-36 {
+    font-size: 36px;
+    line-height: 36px;
+}
+.size-32 {
+    font-size: 32px;
+}
+.size-30 {
+    font-size: 30px;
+}
+.size-25 {
+    font-size: 25px;
+}
+.size-24 {
+    font-size: 24px;
+    line-height: 24px;
+}
+.size-22 {
+    font-size: 22px;
+}
+.size-20 {
+    font-size: 20px;
+}
+.size-18 {
+    font-size: 18px;
+    line-height: 22px;
+}
+.size-17 {
+    font-size: 17px;
+}
+.size-16 {
+    font-size: 16px;
+    line-height: 20px;
+}
+.size-15 {
+    font-size: 15px;
+}
+
+.weight-400 {
+    font-weight: 400;
+}
+.weight-500 {
+    font-weight: 500;
+}
+.weight-600 {
+    font-weight: 600;
+}
+.weight-700 {
+    font-weight: 700;
+}
